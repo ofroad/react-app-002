@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import P1 from './t3.js';
+import P1 from './t6.js';
 
 function App() {
   return (

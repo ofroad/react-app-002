@@ -6,7 +6,7 @@ import {
   Redirect,
   withRouter
 } from "react-router-dom";
-
+import P4 from './t4.js';
 console.log("withRouter===",withRouter)
 
 ////////////////////////////////////////////////////////////
@@ -20,6 +20,7 @@ function AuthExample() {
     <Router>
       <div>
         <AuthButton />
+        <P4></P4>
         <ul>
           <li>
             <Link to="/public">Public Page</Link>
